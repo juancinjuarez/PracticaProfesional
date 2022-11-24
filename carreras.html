@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SIT - Sistema Informático de Tutorías</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/semantic.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+</head>
+
+<body>
+    <div class="ui fixed top menu">
+        <a href="javascript:void(0)" class="icon active item" id="hideToggle"><h3><i class="chevron left icon"></i></h3></a>
+        <a href="javascript:void(0)" class="icon active item" id="showToggle"><h3><i class="chevron right icon"></i></h3></a>
+        <a href="dashboard.html" data-toggle="slide" class="item"><h3>SIT ~ UTN FRGP</h3></a>
+        <div class="menu right">
+            <a class="icon item pointer" data-toggle="popup" data-content="#mail" data-position="bottom right"><i class="mail icon"></i></a>
+            <div id="mail" class="ui fluid popup" style="min-width:400px;padding-top:30px;">
+                <div class="ui divided items">
+                    <div class="item">
+                        <img src="http://placekitten.com/g/225/225" class="ui avatar image">
+                        <div class="content">
+                            <a class="header">Stevie Feliciano</a>
+                            <div class="description">
+                                Stevie Feliciano is a <a>library scientist</a>...
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="http://placekitten.com/g/225/225" class="ui avatar image">
+                        <div class="content">
+                            <a class="header">Angel Simón</a>
+                            <div class="description">
+                                Angel Simón es desarrollador y docente
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="http://placekitten.com/g/225/225" class="ui avatar image">
+                        <div class="content">
+                            <a class="header">Jenny Hess</a>
+                            <div class="description">
+                                Jenny is a student <a>the New School</a>...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui divider"></div>
+                <a href="" class="ui right floated tiny button">All Message</a>
+            </div>
+            <a class="icon item pointer" data-toggle="popup" data-content="#notif" data-position="bottom right"><i class="bell icon"></i></a>
+            <div id="notif" class="ui fluid popup" style="min-width:400px;padding-top:30px;">
+                <div class="ui divided items">
+                    <div class="item">
+                        <div class="content">
+                            <i class="bell icon"></i> Illum ratione aliquam veniam voluptates porro,
+                            <div class="extra content">
+                                Sunday, 20-03-2016
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="content">
+                            <i class="bell icon"></i> Facere, quas maxime at consequuntur
+                            <div class="extra content">
+                                Sunday, 20-03-2016
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="content">
+                            <i class="bell icon"></i> Officiis ex sint distinctio.
+                            <div class="extra content">
+                                Sunday, 20-03-2016
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui divider"></div>
+                <a href="" class="ui right floated tiny button">All Notification</a>
+            </div>
+            <a class="icon item pointer" data-toggle="popup" data-content="#user" data-position="bottom right"><img src="http://placekitten.com/g/225/225" class="ui avatar image" alt=""></a>
+            <div id="user" class="ui popup">
+                <div class="ui secondary vertical menu">
+                    <div class="header item">HOLA BETTY</div>
+                    <a href="" class="item">Inicio <i class="home icon"></i></a>
+                    <a href="" class="item">Cambiar clave <i class="key icon"></i></a>
+                    <div class="ui divider"></div>
+                    <a href="index.html" class="item">Salir <i class="sign out icon"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>    <div class="pusher">
+        <div class="ui fluid container">
+            <div class="ui two column grid">
+                <div class="side menu" id="sideMenu">
+<div align="center" class="profile">
+    <br>
+    <a href=""><img src="http://placekitten.com/g/225/225" alt="Angel Simón" class="ui circular image" width="150px"></a>
+    <div class="ui white header">Betty Simunson</div>
+    <div class="ui divider"></div>
+</div>
+<div class="ui fluid vertical menu" id="verticalMenu">
+    <a href="dashboard.html" class="item"><i class="dashboard icon"></i> <span>Dashboard</span></a>
+    <a href="form.html" class="item"><i class="book icon"></i> <span>Formularios</span></a>
+    <a href="table.html" class="item"><i class="user graduate icon"></i> <span>Alumnos</span></a>
+    <a href="chart.html" class="item"><i class="hiking icon"></i> <span>Tutores</span></a>
+    <a href="card.html" class="item"><i class="block layout icon"></i> <span>Materias</span></a>
+    <a href="progress.html" class="item"><i class="chart line icon"></i> <span>Reportes</span></a>
+    <a href="index.html" class="item"><i class="question icon"></i> <span>Ayuda</span></a>
+    
+</div>
+</div>                <div class="sixteen wide column"></div>
+                <div class="thirteen wide column centered" id="content">
+                <h2><i class="block layout icon"></i>  Carreras</h2>
+                    <div class="ui divider"></div>
+                                 
+                                <table class="ui celled table">
+                                    <thead>
+                                        <tr><th>ID</th>
+                                        <th>Nombre</th>
+                                        <th>Tipo</th>
+                                        <th colspan=3>
+                                    </tr></thead>
+                                    <tbody>
+                                                                        <tr>
+                                        <td data-label="ID">24117</td>
+                                        <td data-label="Nombre">INGENIERIA MECANICA</td>
+                                        <td data-label="Tipo">24113</td>
+                                        <td style="text-align: center"><a title="Ver registro" href="carrera/ver/24117"><em data-emoji=":mag_right:"></em></a></td>
+                                        <td style="text-align: center"><a title="Editar registro" href="carrera/editar/24117"><em data-emoji=":pencil2:"></a></td>
+                                        <td style="text-align: center"><a title="Eliminar registro" href="carrera/editar/24117"><em data-emoji=":x:"></em></a></td>
+                                        </tr>
+                                                                                <tr>
+                                        <td data-label="ID">24118</td>
+                                        <td data-label="Nombre">INGENIERIA CIVIL</td>
+                                        <td data-label="Tipo">24113</td>
+                                        <td style="text-align: center"><a title="Ver registro" href="carrera/ver/24118"><em data-emoji=":mag_right:"></em></a></td>
+                                        <td style="text-align: center"><a title="Editar registro" href="carrera/editar/24118"><em data-emoji=":pencil2:"></a></td>
+                                        <td style="text-align: center"><a title="Eliminar registro" href="carrera/editar/24118"><em data-emoji=":x:"></em></a></td>
+                                        </tr>
+                                                                                <tr>
+                                        <td data-label="ID">24119</td>
+                                        <td data-label="Nombre">INGENIERIA ELECTRICA</td>
+                                        <td data-label="Tipo">24113</td>
+                                        <td style="text-align: center"><a title="Ver registro" href="carrera/ver/24119"><em data-emoji=":mag_right:"></em></a></td>
+                                        <td style="text-align: center"><a title="Editar registro" href="carrera/editar/24119"><em data-emoji=":pencil2:"></a></td>
+                                        <td style="text-align: center"><a title="Eliminar registro" href="carrera/editar/24119"><em data-emoji=":x:"></em></a></td>
+                                        </tr>
+                                                                                <tr>
+                                        <td data-label="ID">24120</td>
+                                        <td data-label="Nombre">LICENCIATURA EN ORGANIZACION INDUSTRIAL</td>
+                                        <td data-label="Tipo">24114</td>
+                                        <td style="text-align: center"><a title="Ver registro" href="carrera/ver/24120"><em data-emoji=":mag_right:"></em></a></td>
+                                        <td style="text-align: center"><a title="Editar registro" href="carrera/editar/24120"><em data-emoji=":pencil2:"></a></td>
+                                        <td style="text-align: center"><a title="Eliminar registro" href="carrera/editar/24120"><em data-emoji=":x:"></em></a></td>
+                                        </tr>
+                                                                                <tr>
+                                        <td data-label="ID">27265</td>
+                                        <td data-label="Nombre">TEC. SUP. PROGRAMACION GRAL. PACHECO</td>
+                                        <td data-label="Tipo">24115</td>
+                                        <td style="text-align: center"><a title="Ver registro" href="carrera/ver/27265"><em data-emoji=":mag_right:"></em></a></td>
+                                        <td style="text-align: center"><a title="Editar registro" href="carrera/editar/27265"><em data-emoji=":pencil2:"></a></td>
+                                        <td style="text-align: center"><a title="Eliminar registro" href="carrera/editar/27265"><em data-emoji=":x:"></em></a></td>
+                                        </tr>
+                                                                                <tr>
+                                        <td data-label="ID">27266</td>
+                                        <td data-label="Nombre">TEC. SUP. PROGRAMACION J.C.PAZ</td>
+                                        <td data-label="Tipo">24115</td>
+                                        <td style="text-align: center"><a title="Ver registro" href="carrera/ver/27266"><em data-emoji=":mag_right:"></em></a></td>
+                                        <td style="text-align: center"><a title="Editar registro" href="carrera/editar/27266"><em data-emoji=":pencil2:"></a></td>
+                                        <td style="text-align: center"><a title="Eliminar registro" href="carrera/editar/27266"><em data-emoji=":x:"></em></a></td>
+                                        </tr>
+                                                                                <tr>
+                                        <td data-label="ID">27555</td>
+                                        <td data-label="Nombre">TECNICO SUPERIOR EN ADMINISTRACION</td>
+                                        <td data-label="Tipo">24115</td>
+                                        <td style="text-align: center"><a title="Ver registro" href="carrera/ver/27555"><em data-emoji=":mag_right:"></em></a></td>
+                                        <td style="text-align: center"><a title="Editar registro" href="carrera/editar/27555"><em data-emoji=":pencil2:"></a></td>
+                                        <td style="text-align: center"><a title="Eliminar registro" href="carrera/editar/27555"><em data-emoji=":x:"></em></a></td>
+                                        </tr>
+                                                                                <tr>
+                                        <td data-label="ID">28064</td>
+                                        <td data-label="Nombre">CICLO DE LIC. EN ENSEÑANZA DE LA MATEMÁTICA</td>
+                                        <td data-label="Tipo">28062</td>
+                                        <td style="text-align: center"><a title="Ver registro" href="carrera/ver/28064"><em data-emoji=":mag_right:"></em></a></td>
+                                        <td style="text-align: center"><a title="Editar registro" href="carrera/editar/28064"><em data-emoji=":pencil2:"></a></td>
+                                        <td style="text-align: center"><a title="Eliminar registro" href="carrera/editar/28064"><em data-emoji=":x:"></em></a></td>
+                                        </tr>
+                                                                                <tr>
+                                        <td data-label="ID">29786</td>
+                                        <td data-label="Nombre">TEC. SUP. EN SISTEMAS INFORMATICOS</td>
+                                        <td data-label="Tipo">24115</td>
+                                        <td style="text-align: center"><a title="Ver registro" href="carrera/ver/29786"><em data-emoji=":mag_right:"></em></a></td>
+                                        <td style="text-align: center"><a title="Editar registro" href="carrera/editar/29786"><em data-emoji=":pencil2:"></a></td>
+                                        <td style="text-align: center"><a title="Eliminar registro" href="carrera/editar/29786"><em data-emoji=":x:"></em></a></td>
+                                        </tr>
+                                                                                <tr>
+                                        <td data-label="ID">33106</td>
+                                        <td data-label="Nombre">TECNICO SUP. SITEMAS INFORMATICOS PACHECO</td>
+                                        <td data-label="Tipo">24115</td>
+                                        <td style="text-align: center"><a title="Ver registro" href="carrera/ver/33106"><em data-emoji=":mag_right:"></em></a></td>
+                                        <td style="text-align: center"><a title="Editar registro" href="carrera/editar/33106"><em data-emoji=":pencil2:"></a></td>
+                                        <td style="text-align: center"><a title="Eliminar registro" href="carrera/editar/33106"><em data-emoji=":x:"></em></a></td>
+                                        </tr>
+                                                                                <tr>
+                                        <td data-label="ID">33887</td>
+                                        <td data-label="Nombre">TEC. SUP. GESTION DE LA INDUSTRIA AUTOMOTRIZ</td>
+                                        <td data-label="Tipo">24115</td>
+                                        <td style="text-align: center"><a title="Ver registro" href="carrera/ver/33887"><em data-emoji=":mag_right:"></em></a></td>
+                                        <td style="text-align: center"><a title="Editar registro" href="carrera/editar/33887"><em data-emoji=":pencil2:"></a></td>
+                                        <td style="text-align: center"><a title="Eliminar registro" href="carrera/editar/33887"><em data-emoji=":x:"></em></a></td>
+                                        </tr>
+                                                                                <tr>
+                                        <td data-label="ID">34835</td>
+                                        <td data-label="Nombre">INGENIERIA EN INDUSTRIA AUTOMOTRIZ</td>
+                                        <td data-label="Tipo">24113</td>
+                                        <td style="text-align: center"><a title="Ver registro" href="carrera/ver/34835"><em data-emoji=":mag_right:"></em></a></td>
+                                        <td style="text-align: center"><a title="Editar registro" href="carrera/editar/34835"><em data-emoji=":pencil2:"></a></td>
+                                        <td style="text-align: center"><a title="Eliminar registro" href="carrera/editar/34835"><em data-emoji=":x:"></em></a></td>
+                                        </tr>
+                                                                                <tr>
+                                        <td data-label="ID">38389</td>
+                                        <td data-label="Nombre">TECNICO SUPERIOR EN ADMINISTRACION</td>
+                                        <td data-label="Tipo">24115</td>
+                                        <td style="text-align: center"><a title="Ver registro" href="carrera/ver/38389"><em data-emoji=":mag_right:"></em></a></td>
+                                        <td style="text-align: center"><a title="Editar registro" href="carrera/editar/38389"><em data-emoji=":pencil2:"></a></td>
+                                        <td style="text-align: center"><a title="Eliminar registro" href="carrera/editar/38389"><em data-emoji=":x:"></em></a></td>
+                                        </tr>
+                                                                                <tr>
+                                        <td data-label="ID">40632</td>
+                                        <td data-label="Nombre">CICLO DE LIC. EN ENSEÑANZA DE LA FÍSICA</td>
+                                        <td data-label="Tipo">28062</td>
+                                        <td style="text-align: center"><a title="Ver registro" href="carrera/ver/40632"><em data-emoji=":mag_right:"></em></a></td>
+                                        <td style="text-align: center"><a title="Editar registro" href="carrera/editar/40632"><em data-emoji=":pencil2:"></a></td>
+                                        <td style="text-align: center"><a title="Eliminar registro" href="carrera/editar/40632"><em data-emoji=":x:"></em></a></td>
+                                        </tr>
+                                                                                <tr>
+                                        <td data-label="ID">47355</td>
+                                        <td data-label="Nombre">TEC. SUP. MOLDES MATRICES Y DISPOSITIVOS</td>
+                                        <td data-label="Tipo">24115</td>
+                                        <td style="text-align: center"><a title="Ver registro" href="carrera/ver/47355"><em data-emoji=":mag_right:"></em></a></td>
+                                        <td style="text-align: center"><a title="Editar registro" href="carrera/editar/47355"><em data-emoji=":pencil2:"></a></td>
+                                        <td style="text-align: center"><a title="Eliminar registro" href="carrera/editar/47355"><em data-emoji=":x:"></em></a></td>
+                                        </tr>
+                                                                                <tr>
+                                        <td data-label="ID">61186</td>
+                                        <td data-label="Nombre">LIC. EN TECNOLOGIA EDUCATIVA</td>
+                                        <td data-label="Tipo">28062</td>
+                                        <td style="text-align: center"><a title="Ver registro" href="carrera/ver/61186"><em data-emoji=":mag_right:"></em></a></td>
+                                        <td style="text-align: center"><a title="Editar registro" href="carrera/editar/61186"><em data-emoji=":pencil2:"></a></td>
+                                        <td style="text-align: center"><a title="Eliminar registro" href="carrera/editar/61186"><em data-emoji=":x:"></em></a></td>
+                                        </tr>
+                                                                                <tr>
+                                        <td data-label="ID">61187</td>
+                                        <td data-label="Nombre">LIC. EN HIGIENE Y SEGURIDAD EN EL TRABAJO</td>
+                                        <td data-label="Tipo">28062</td>
+                                        <td style="text-align: center"><a title="Ver registro" href="carrera/ver/61187"><em data-emoji=":mag_right:"></em></a></td>
+                                        <td style="text-align: center"><a title="Editar registro" href="carrera/editar/61187"><em data-emoji=":pencil2:"></a></td>
+                                        <td style="text-align: center"><a title="Eliminar registro" href="carrera/editar/61187"><em data-emoji=":x:"></em></a></td>
+                                        </tr>
+                                                                                <tr>
+                                        <td data-label="ID">61188</td>
+                                        <td data-label="Nombre">LIC. EN GESTION DE EMPRESAS TURISTICAS</td>
+                                        <td data-label="Tipo">28062</td>
+                                        <td style="text-align: center"><a title="Ver registro" href="carrera/ver/61188"><em data-emoji=":mag_right:"></em></a></td>
+                                        <td style="text-align: center"><a title="Editar registro" href="carrera/editar/61188"><em data-emoji=":pencil2:"></a></td>
+                                        <td style="text-align: center"><a title="Eliminar registro" href="carrera/editar/61188"><em data-emoji=":x:"></em></a></td>
+                                        </tr>
+                                                                                <tr>
+                                        <td data-label="ID">61189</td>
+                                        <td data-label="Nombre">LIC. EN GESTION DE LA PRODUCCION GRAFICA</td>
+                                        <td data-label="Tipo">28062</td>
+                                        <td style="text-align: center"><a title="Ver registro" href="carrera/ver/61189"><em data-emoji=":mag_right:"></em></a></td>
+                                        <td style="text-align: center"><a title="Editar registro" href="carrera/editar/61189"><em data-emoji=":pencil2:"></a></td>
+                                        <td style="text-align: center"><a title="Eliminar registro" href="carrera/editar/61189"><em data-emoji=":x:"></em></a></td>
+                                        </tr>
+                                                                                <tr>
+                                        <td data-label="ID">61190</td>
+                                        <td data-label="Nombre">LIC. EN PRODUCCION DE BIOIMAGENES</td>
+                                        <td data-label="Tipo">28062</td>
+                                        <td style="text-align: center"><a title="Ver registro" href="carrera/ver/61190"><em data-emoji=":mag_right:"></em></a></td>
+                                        <td style="text-align: center"><a title="Editar registro" href="carrera/editar/61190"><em data-emoji=":pencil2:"></a></td>
+                                        <td style="text-align: center"><a title="Eliminar registro" href="carrera/editar/61190"><em data-emoji=":x:"></em></a></td>
+                                        </tr>
+                                                                                <tr>
+                                        <td data-label="ID">61191</td>
+                                        <td data-label="Nombre">LIC. EN COMERCIALIZACION</td>
+                                        <td data-label="Tipo">28062</td>
+                                        <td style="text-align: center"><a title="Ver registro" href="carrera/ver/61191"><em data-emoji=":mag_right:"></em></a></td>
+                                        <td style="text-align: center"><a title="Editar registro" href="carrera/editar/61191"><em data-emoji=":pencil2:"></a></td>
+                                        <td style="text-align: center"><a title="Eliminar registro" href="carrera/editar/61191"><em data-emoji=":x:"></em></a></td>
+                                        </tr>
+                                                                            </tbody>
+                                </table>
+                                    <a class="ui centered blue button" href="/">Volver al inicio</a>
+                            
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/semantic.min.js"></script>
+<script type="text/javascript" src="assets/js/nicescroll.min.js"></script>
+
+<!-- Include AmCharts -->
+<script type="text/javascript" src="assets/js/amcharts/amcharts.js"></script>
+<script type="text/javascript" src="assets/js/amcharts/serial.js"></script>
+<script type="text/javascript" src="assets/js/amcharts/themes/light.js"></script>
+
+<script type="text/javascript" src="assets/js/main.js"></script>
+<script type="text/javascript" src="assets/js/graph.js"></script>
+    </body>
+</html>

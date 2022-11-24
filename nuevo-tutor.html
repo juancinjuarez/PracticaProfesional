@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SIT - Nuevo tutor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/semantic.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+</head>
+
+<body>
+    <div class="ui fixed top menu">
+        <a href="javascript:void(0)" class="icon active item" id="hideToggle"><h3><i class="chevron left icon"></i></h3></a>
+        <a href="javascript:void(0)" class="icon active item" id="showToggle"><h3><i class="chevron right icon"></i></h3></a>
+        <a href="dashboard.html" data-toggle="slide" class="item"><h3>SIT ~ UTN FRGP</h3></a>
+        <div class="menu right">
+            <a class="icon item pointer" data-toggle="popup" data-content="#mail" data-position="bottom right"><i class="mail icon"></i></a>
+            <div id="mail" class="ui fluid popup" style="min-width:400px;padding-top:30px;">
+                <div class="ui divided items">
+                    <div class="item">
+                        <img src="http://placekitten.com/g/225/225" class="ui avatar image">
+                        <div class="content">
+                            <a class="header">Stevie Feliciano</a>
+                            <div class="description">
+                                Stevie Feliciano is a <a>library scientist</a>...
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="http://placekitten.com/g/225/225" class="ui avatar image">
+                        <div class="content">
+                            <a class="header">Angel Simón</a>
+                            <div class="description">
+                                Angel Simón es desarrollador y docente
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="http://placekitten.com/g/225/225" class="ui avatar image">
+                        <div class="content">
+                            <a class="header">Jenny Hess</a>
+                            <div class="description">
+                                Jenny is a student <a>the New School</a>...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui divider"></div>
+                <a href="" class="ui right floated tiny button">All Message</a>
+            </div>
+            <a class="icon item pointer" data-toggle="popup" data-content="#notif" data-position="bottom right"><i class="bell icon"></i></a>
+            <div id="notif" class="ui fluid popup" style="min-width:400px;padding-top:30px;">
+                <div class="ui divided items">
+                    <div class="item">
+                        <div class="content">
+                            <i class="bell icon"></i> Illum ratione aliquam veniam voluptates porro,
+                            <div class="extra content">
+                                Sunday, 20-03-2016
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="content">
+                            <i class="bell icon"></i> Facere, quas maxime at consequuntur
+                            <div class="extra content">
+                                Sunday, 20-03-2016
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="content">
+                            <i class="bell icon"></i> Officiis ex sint distinctio.
+                            <div class="extra content">
+                                Sunday, 20-03-2016
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui divider"></div>
+                <a href="" class="ui right floated tiny button">All Notification</a>
+            </div>
+            <a class="icon item pointer" data-toggle="popup" data-content="#user" data-position="bottom right"><img src="http://placekitten.com/g/225/225" class="ui avatar image" alt=""></a>
+            <div id="user" class="ui popup">
+                <div class="ui secondary vertical menu">
+                    <div class="header item">HOLA ANGEL</div>
+                    <a href="" class="item">Inicio <i class="home icon"></i></a>
+                    <a href="" class="item">Cambiar clave <i class="key icon"></i></a>
+                    <div class="ui divider"></div>
+                    <a href="index.html" class="item">Salir <i class="sign out icon"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pusher">
+        <div class="ui fluid container">
+            <div class="ui two column grid">
+                <div class="side menu" id="sideMenu">
+                    <div align="center" class="profile">
+                        <br>
+                        <a href=""><img src="http://placekitten.com/g/225/225" alt="Angel Simón" class="ui circular image" width="150px"></a>
+                        <div class="ui white header">Angel Simón</div>
+                        <div class="ui divider"></div>
+                    </div>
+                    <div class="ui fluid vertical menu" id="verticalMenu">
+                        <a href="dashboard.html" class="item"><i class="dashboard icon"></i> <span>Dashboard</span></a>
+                        <a href="form.html" class="item"><i class="book icon"></i> <span>Formularios</span></a>
+                        <a href="table.html" class="item"><i class="user graduate icon"></i> <span>Alumnos</span></a>
+                        <a href="chart.html" class="item"><i class="hiking icon"></i> <span>Tutores</span></a>
+                        <a href="card.html" class="item"><i class="block layout icon"></i> <span>Materias</span></a>
+                        <a href="progress.html" class="item"><i class="chart line icon"></i> <span>Reportes</span></a>
+                        <a href="index.html" class="item"><i class="question icon"></i> <span>Ayuda</span></a>
+                        
+                    </div>
+                </div>
+                <div class="sixteen wide column"></div>
+                <div class="thirteen wide column centered" id="content">
+                    <h2><i class="user icon"></i>Nuevo tutor</h2>
+                    <div class="ui divider"></div>
+                            <div class="column">
+                                <div class="ui segments">
+                                    <div class="ui segment"><h3>Datos del tutor</h3></div>
+                                    <div class="ui segment">
+                                        <form class="ui form">
+                                            <div class="two fields">
+                                                <div class="field">
+                                                    <label>Nombre</label>
+                                                    <input type="text" name="nombre-tutor" placeholder="Nombre del tutor o tutora">
+                                                </div>
+                                                <div class="field">
+                                                    <label>Apellido</label>
+                                                    <input type="text" name="apellido-tutor" placeholder="Apellido del tutor o tutora">
+                                                </div>
+                                            </div>
+                                            <div class="two fields">
+                                                <div class="field">
+                                                    <label>Email</label>
+                                                    <input type="text" name="email-tutor" placeholder="Email del tutor o tutora">
+                                                </div>
+                                                <div class="field">
+                                                    <label>Repetir email</label>
+                                                    <input type="text" name="email-repetir-tutor" placeholder="Repetir el email del tutor o tutora">
+                                                </div>
+                                            </div>
+                                            <div class="field">
+                                                <label>Imagen de perfil</label>
+                                                <input type="file" accept="image/.jpg" name="imagen-tutor" id="imagen-tutor" />
+                                            </div>
+                                            <div class="field">
+                                                <label>Biografía</label>
+                                                <div class="ui left corner labeled input">
+                                                    <div class="ui left corner label">
+                                                        <i class="asterisk icon"></i>
+                                                    </div>
+                                                    <textarea name="bio-tutor" id="bio-tutor"></textarea>
+                                                </div>
+                                            </div>
+                                            <button class="ui centered button" type="button" onclick="ToastMe();">Cancelar</button>
+                                            <button class="ui centered blue button" type="submit">Enviar</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>          
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/semantic.min.js"></script>
+    <script type="text/javascript" src="assets/js/nicescroll.min.js"></script>
+
+    <!-- Include AmCharts -->
+    <script type="text/javascript" src="assets/js/amcharts/amcharts.js"></script>
+    <script type="text/javascript" src="assets/js/amcharts/serial.js"></script>
+    <script type="text/javascript" src="assets/js/amcharts/themes/light.js"></script>
+
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/graph.js"></script>
+    <script>
+        function ToastMe(){
+            $('body')
+                .toast({
+                    title: 'Better ?',
+                    message: 'Hey look, I have a title !'
+                });
+        }
+    </script>
+</body>
+</html>
