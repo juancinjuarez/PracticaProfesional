@@ -116,91 +116,85 @@
                 </div>
                 <div class="sixteen wide column"></div>
                 <div class="thirteen wide column centered" id="content">
-                    <h2><i class="user icon"></i>Nuevo usuario</h2>
+                    <h2><i class="user icon"></i>Alumno</h2>
                     <div class="ui divider"></div>
                             <div class="column">
                                 <div class="ui segments">
                                     <div class="ui segment">
-                                        <form class="ui form">
+                                        <div class="ui form">
                                             <h3 class="ui dividing header">Información personal</h3>
-                                            <div class="two fields">
-                                                <div class="field">
-                                                    <label>*Nombres</label>
-                                                    <input type="text" name="nombres-usuario" placeholder="Nombres del usuario">
+                                            <div class="fields">
+                                                <div class="three wide field">
+                                                    <label>ID usuario</label>
+                                                    <input type="text" name="id-usuario" value="1" readonly="true">
                                                 </div>
-                                                <div class="field">
-                                                    <label>*Apellidos</label>
-                                                    <input type="text" name="apellidos-usuario" placeholder="Apellidos del usuario">
+                                                <div class="seven wide field">
+                                                    <label>Nombres</label>
+                                                    <input type="text" name="nombres-usuario" value="Matías Nicolás" readonly="true">
+                                                </div>
+                                                <div class="seven wide field">
+                                                    <label>Apellidos</label>
+                                                    <input type="text" name="apellidos-usuario" value="Ledesma" readonly="true">
                                                 </div>
                                             </div>
                                             <div class="two fields">
                                                 <div class="field">
-                                                    <label>*DNI</label>
-                                                    <input type="text" name="dni-usuario" placeholder="Numero de documento">
+                                                    <label>DNI</label>
+                                                    <input type="text" name="dni-usuario" value="48504687" readonly="true">
                                                 </div>
                                                 <div class="field">
-                                                    <label>*Fecha de nacimiento</label>
-                                                    <input type="date" name="fecha-nacimiento-usuario">
+                                                    <label>Fecha de nacimiento</label>
+                                                    <input type="date" name="fecha-nacimiento-usuario" readonly="true" value="2000-01-08">
                                                 </div>
                                             </div>
                                             
                                             <h3 class="ui dividing header">Información de contacto</h3>
                                             <div class="two fields">
                                                 <div class="field">
-                                                    <label>*Email</label>
-                                                    <input type="text" name="email-usuario" placeholder="Email del usuario">
+                                                    <label> Email</label>
+                                                    <input type="text" name="email-usuario" value="mledesma@hotmail.com" readonly="true">
                                                 </div>
                                                 <div class="field">
-                                                    <label>*Repetir email</label>
-                                                    <input type="text" name="email-repetir-usuario" placeholder="Repetir el email del usuario">
+                                                    <label> Numero de telefono</label>
+                                                    <input type="text" name="telefono-usuario" value="48956484" readonly="true">
                                                 </div>
                                             </div>
                                             <div class="two fields">
                                                 <div class="field">
-                                                    <label> Numero de telefono</label>
-                                                    <input type="text" name="telefono-usuario" placeholder="numero de telefono">
+                                                    <label>Email institucional</label>
+                                                    <input type="text" name="email-institucional-usuario" value="mledesma@alumnos.frgp.utn.edu.ar" readonly="true">
                                                 </div>
                                                 <div class="field">
                                                     <label> Numero de celular</label>
-                                                    <input type="text" name="celular-usuario" placeholder="numero de celular">
+                                                    <input type="text" name="celular-usuario" value="1161459724" readonly="true">
                                                 </div>
                                             </div>
-                                            <h3 class="ui dividing header">Información institucional</h3>
-                                            <div class="two fields">
-                                                <div class="field">
-                                                    <label>*Email institucional</label>
-                                                    <input type="text" name="email-institucional-usuario" placeholder="Email UTN del usuario">
+                                            <h3 class="ui dividing header">Información academica</h3>
+                                            <div class="fields">
+                                                <div class="three wide field">
+                                                    <label>ID Carrera</label>
+                                                    <input type="text" name="id-carrera" value="29786" readonly="true">
                                                 </div>
-                                                <div class="field">
-                                                    <label>*Repetir email institucional</label>
-                                                    <input type="text" name="email-repetir-institucional-usuario" placeholder="Repetir el email UTN del usuario">
+                                                <div class="nine wide field">
+                                                    <label>Carrera</label>
+                                                    <input type="text" name="nombre-carrera" value="TEC. U. EN SISTEMAS INFORMATICOS" readonly="true">
                                                 </div>
-                                            </div>
-                                            
-                                            <div class="two fields">
-                                                <div class="field">
-                                                    <label>*Clave del usuario</label>
-                                                    <input type="password" name="clave-usuario" placeholder="Ingrese la contraseña del usuario">
+                                                <div class="two wide field">
+                                                    <label>Año</label>
+                                                    <input type="text" name="anio-carrera" value="1" readonly="true">
                                                 </div>
-                                                <div class="field">
-                                                    <label>*Repita la clave</label>
-                                                    <input type="password" name="clave-repetir-usuario" placeholder="Repita la contraseña">
+                                                <div class="two wide field">
+                                                    <label>Cuatrimestre</label>
+                                                    <input type="text" name="cuatrimestre-carrera" value="2" readonly="true">
                                                 </div>
                                             </div>
                                             <div class="two fields">
                                                 <div class="field">
-                                                    <label> Rol</label>
-                                                    <select class="ui selection dropdown">
-                                                        <option>Elija un rol</option>
-                                                        <option>rol 1</option>
-                                                        <option>rol 2</option>
-                                                        <option>rol 3</option>
-                                                    </select>
+                                                    <label>Tutor</label>
+                                                    <input type="text" name="tutor-usuario" value="Tamara Herrera" readonly="true">
                                                 </div>
                                             </div>
-                                            <button class="ui centered button" type="button" onclick="ToastMe();">Borrar formulario</button>
-                                            <button class="ui centered blue button" type="button" onclick="RegistrarUsuario();">Registrar usuario</button>
-                                        </form>
+                                        </div>
                                     </div>
                                 </div>
                             </div>          
@@ -220,21 +214,5 @@
 
     <script type="text/javascript" src="assets/js/main.js"></script>
     <script type="text/javascript" src="assets/js/graph.js"></script>
-    <script>
-        function ToastMe(){
-            $('body')
-                .toast({
-                    title: 'Aviso',
-                    message: 'Los campos del formulario fueron eliminados'
-                });
-        }
-        function RegistrarUsuario(){
-            $('body')
-                .toast({
-                    title: 'Aviso',
-                    message: 'Usuario agregado con exito'
-                });
-        }
-    </script>
 </body>
 </html>
